@@ -16,4 +16,4 @@ END
 
 GO
 
-EXECUTE [dbo].[Addresses_Delete] @AddressID=1;
+EXECUTE [dbo].[Addresses_Delete] @AddressID = 1;

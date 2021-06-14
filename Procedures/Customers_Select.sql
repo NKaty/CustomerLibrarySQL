@@ -16,4 +16,4 @@ END
 
 GO
 
-EXECUTE [dbo].[Customers_Select] @CustomerID=1;
+EXECUTE [dbo].[Customers_Select] @CustomerID = 1;

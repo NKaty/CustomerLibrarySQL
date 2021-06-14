@@ -27,9 +27,9 @@ END
 GO
 
 EXECUTE [dbo].[Customers_Update]
-	@CustomerID=1,
-	@FirstName='Tom',
-	@LastName='Smith',  
-	@PhoneNumber='+1234567891', 
-	@Email='tom@gmail.com',
-	@TotalPurchasesAmount=189.87;
+	@CustomerID = 1,
+	@FirstName = 'Tom',
+	@LastName = 'Smith',  
+	@PhoneNumber = '+1234567891', 
+	@Email = 'tom@gmail.com',
+	@TotalPurchasesAmount = 189.87;

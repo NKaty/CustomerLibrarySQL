@@ -32,8 +32,8 @@ END
 GO
 
 EXECUTE [dbo].[Customers_Insert]
-	@FirstName='Bob',
-	@LastName='Smith',  
-	@PhoneNumber='+1234567891', 
-	@Email='bob@gmail.com',
-	@TotalPurchasesAmount=89.87;
+	@FirstName = 'Bob',
+	@LastName = 'Smith',  
+	@PhoneNumber = '+1234567891', 
+	@Email = 'bob@gmail.com',
+	@TotalPurchasesAmount = 89.87;

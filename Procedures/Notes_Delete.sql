@@ -16,4 +16,4 @@ END
 
 GO
 
-EXECUTE [dbo].[Notes_Delete] @NoteID=1;
+EXECUTE [dbo].[Notes_Delete] @NoteID = 1;

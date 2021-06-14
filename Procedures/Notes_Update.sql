@@ -21,6 +21,6 @@ END
 GO
 
 EXECUTE [dbo].[Notes_Update]
-	@NoteID=1,
-	@CustomerID=1,
-	@Note='Note2';
+	@NoteID = 1,
+	@CustomerID = 1,
+	@Note = 'Note2';

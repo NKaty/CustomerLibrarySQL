@@ -41,11 +41,11 @@ END
 GO
 
 EXECUTE [dbo].[Addresses_Insert] 
-	@CustomerID=1, 
-	@AddressLine='Some address',  
-	@AddressLine2='continues', 
-	@AddressType='Shipping',
-	@City='New York',
-	@PostalCode='123456',
-	@State='NY',
-	@Country='United States';
+	@CustomerID = 1, 
+	@AddressLine = 'Some address',  
+	@AddressLine2 = 'continues', 
+	@AddressType = 'Shipping',
+	@City = 'New York',
+	@PostalCode = '123456',
+	@State = 'NY',
+	@Country = 'United States';

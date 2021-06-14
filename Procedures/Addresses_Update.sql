@@ -33,12 +33,12 @@ END
 GO
 
 EXECUTE [dbo].[Addresses_Update]
-	@AddressID=1,
-	@CustomerID=1,
-	@AddressLine='New address', 
-	@AddressLine2='continues',
-	@AddressType='Shipping',
-	@City='New York',
-	@PostalCode='123456',
-	@State='NY',
-	@Country='United States';
+	@AddressID = 1,
+	@CustomerID = 1,
+	@AddressLine = 'New address', 
+	@AddressLine2 = 'continues',
+	@AddressType = 'Shipping',
+	@City = 'New York',
+	@PostalCode = '123456',
+	@State = 'NY',
+	@Country = 'United States';

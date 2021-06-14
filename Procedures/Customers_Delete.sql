@@ -19,4 +19,4 @@ END
 
 GO
 
-EXECUTE [dbo].[Customers_Delete] @CustomerID=1;
+EXECUTE [dbo].[Customers_Delete] @CustomerID = 1;

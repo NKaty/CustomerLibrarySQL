@@ -23,5 +23,5 @@ END
 GO
 
 EXECUTE [dbo].[Notes_Insert]
-	@CustomerID=1,
-	@Note='Note1';
+	@CustomerID = 1,
+	@Note = 'Note1';
